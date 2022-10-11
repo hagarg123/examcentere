@@ -1,8 +1,0 @@
-EX001  MH-CET  A001  Asha Sipahi  Wadia College of Engineering  1, Jogpath, Pune-411001  21/08/2022  25/08/2022
-
-EX001  MH-CET  A003  Umesh Mohite  Wadia College of Engineering  1, Jogpath, Pune-411001  21/08/2022  25/08/2022
-
-EX001  MH-CET  A010  Jahnavi Chandraker  Wadia College of Engineering  1, Jogpath, Pune-411001  21/08/2022  25/08/2022
-
-EX001  MH-CET  B001  Samson Paul  Wadia College of Engineering  1, Jogpath, Pune-411001  21/08/2022  25/08/2022
-
