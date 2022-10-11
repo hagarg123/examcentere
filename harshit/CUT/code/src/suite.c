@@ -21,7 +21,7 @@ int main()
 	int ret;
 	
 	FILE *f;
-	f = fopen("/home/harshit/code/data/examcenters.txt", "r");
+	f = fopen("/home/harshit/CUT/code/data/examcenters.txt", "r");
 	if (f == NULL)
         	return FAILURE;
     	while(1)
