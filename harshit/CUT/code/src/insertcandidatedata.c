@@ -20,7 +20,7 @@ int insertcandidatedata(char *str)
 {
 	
 	FILE *fw;
-	fw = fopen("/home/harshit/code/reports/InvalidCandidates.txt", "a");
+	fw = fopen("/home/harshit/CUT/code/reports/InvalidCandidates.txt", "a");
 	if (fw == NULL)
         	return FAILURE;
 
