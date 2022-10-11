@@ -19,7 +19,7 @@ int writetofile()
 	
    	for(temp1 = head_exam; temp1 != NULL; temp1 = temp1->next) // traversing examcenter linked list
    	{	
-		char file[100] = "/home/harshit/code/reports/"; // files in reports folder
+		char file[100] = "/home/harshit/CUT/code/reports/"; // files in reports folder
 		strcat(file, temp1 -> examcno);
 		strcat(file,".txt");
 
