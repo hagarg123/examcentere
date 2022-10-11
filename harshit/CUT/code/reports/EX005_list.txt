@@ -1,0 +1,12 @@
+EX005  GATE  A009  Somya Gupta  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
+EX005  GATE  A015  Rajendra Singh  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
+EX005  GATE  B005  Surya Praksh  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
+EX005  GATE  M009  Aman Bhatia  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
+EX005  GATE  M015  Rajendra Gurjar  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
+EX005  GATE  N005  Surya Ramaprakash  Indian Institute of Technology-Kanpur  Kanpur-208016  02/02/2023  14/02/2023
+
