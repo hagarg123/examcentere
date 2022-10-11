@@ -1,0 +1,54 @@
+cg83-user35@instance-1:~/examcentere/harshit/code$ cd src
+cg83-user35@instance-1:~/examcentere/harshit/code/src$ vi main.c
+cg83-user35@instance-1:~/examcentere/harshit/code/src$ cd ..
+cg83-user35@instance-1:~/examcentere/harshit/code$ splint -I../header ./src/main.c
+Splint 3.1.2 --- 21 Feb 2021
+
+src/main.c:3: Include file <dirent.h> matches the name of a POSIX library, but
+    the POSIX library is not being used.  Consider using +posixlib or
+    +posixstrictlib to select the POSIX library, or -warnposix to suppress this
+    message.
+  Header name matches a POSIX header, but the POSIX library is not selected.
+  (Use -warnposixheaders to inhibit warning)
+< Location unknown >: Field name reused:
+  Code cannot be parsed.  For help on parse errors, see splint -help
+  parseerrors. (Use -syntax to inhibit warning)
+< Location unknown >: Previous use of
+src/main.c: (in function main)
+src/main.c:30:12: Test expression for while not boolean, type int: 1
+  Test expression type is not boolean or int. (Use -predboolint to inhibit
+  warning)
+src/main.c:37:19: Passed storage thread_id not completely defined (thread_id[0]
+                     is undefined): pthread_create (&thread_id[0], ...)
+  Storage derivable from a parameter, return value or global is not defined.
+  Use /*@out@*/ to denote passed or returned storage which need not be defined.
+  (Use -compdef to inhibit warning)
+src/main.c:37:34: Null storage passed as non-null param:
+                     pthread_create (..., NULL, ...)
+  A possibly null pointer is passed as a parameter corresponding to a formal
+  parameter with no /*@null@*/ annotation.  If NULL may be used for this
+  parameter, add a /*@null@*/ annotation to the function parameter declaration.
+  (Use -nullpass to inhibit warning)
+src/main.c:37:4: Return value (type int) ignored: pthread_create(&...
+  Result returned by function call is not used. If this is intended, can cast
+  result to (void) to eliminate message. (Use -retvalint to inhibit warning)
+src/main.c:38:31: Null storage passed as non-null param:
+                     pthread_join (..., NULL)
+src/main.c:38:4: Return value (type int) ignored: pthread_join(thr...
+src/main.c:41:2: Return value (type int) ignored: fclose(f)
+src/main.c:45:18: Passed storage &thread_id[] not completely defined
+    (thread_id[] is undefined): pthread_create (&thread_id[i - 1], ...)
+src/main.c:45:35: Null storage passed as non-null param:
+                     pthread_create (..., NULL, ...)
+src/main.c:45:3: Return value (type int) ignored: pthread_create(&...
+src/main.c:46:32: Null storage passed as non-null param:
+                     pthread_join (..., NULL)
+src/main.c:46:3: Return value (type int) ignored: pthread_join(thr...
+src/main.c:50:2: Return value (type int) ignored: writetofile()
+src/main.c:53:2: Return value (type char *) ignored: fgets(cid, 10, s...
+  Result returned by function call is not used. If this is intended, can cast
+  result to (void) to eliminate message. (Use -retvalother to inhibit warning)
+src/main.c:60:2: Return value (type int) ignored: pthread_mutex_de...
+src/main.c:61:15: Null storage passed as non-null param: pthread_exit (NULL)
+
+Finished checking --- 18 code warnings
