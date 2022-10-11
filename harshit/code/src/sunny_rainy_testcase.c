@@ -1,11 +1,19 @@
 #include "CUnit/Basic.h"
 #include "../header/functions.h"
 
+/* The suite initialization function.
+ * Opens the temporary file used by the tests.
+ * Returns zero on success, non-zero otherwise.
+ */
+
 int init_suite_insertcandidatedata(void) 
 {
 	return 0;
 }
-
+/* The suite cleanup function.
+ * Closes the temporary file used by the tests.
+ * Returns zero on success, non-zero otherwise.
+ */
 int clean_suite_insertcandidatedata(void) 
 {
 	return 0;
