@@ -1,0 +1,66 @@
+
+     CUnit - A unit testing framework for C - Version 2.1-3
+     http://cunit.sourceforge.net/
+
+
+Suite: suite insertcandidatedata...
+  Test: Test for insertcandidatedata() in sunny cases ...passed
+  Test: Test for insertcandidatedata() in rainy cases ...passed
+Suite: suite printhallticket...
+  Test: Test for printhallticket() in sunny cases ...
+
+NAME           :  Sudarshan Timisha
+
+CANDIDATE ID   :  A004
+
+EXAM ID        :  CAT
+
+EXAM CENTER    :  EX003
+
+COLLEGE        :  S P College
+
+ADDRESS        :  Tilak Road, Pune-411002
+
+START DATE     :  15/10/2022
+
+END DATE       :  15/10/2022
+
+NAME           :  Subhadeep
+
+CANDIDATE ID   :  B002
+
+EXAM ID        :  UPSC
+
+EXAM CENTER    :  EX002
+
+COLLEGE        :  MBA-Center, University of Pune
+
+ADDRESS        :  Shivajinagar, Pune-411006
+
+START DATE     :  01/08/2022
+
+END DATE       :  01/08/2022
+
+NAME           :  Harshit Garg
+
+CANDIDATE ID   :  C001
+
+EXAM ID        :  MH-CET
+
+EXAM CENTER    :  EX001
+
+COLLEGE        :  Wadia College of Engineering
+
+ADDRESS        :  1, Jogpath, Pune-411001
+
+START DATE     :  21/08/2022
+
+END DATE       :  25/08/2022passed
+  Test: Test for printhallticket() in rainy cases ...passed
+
+Run Summary:    Type  Total    Ran Passed Failed Inactive
+              suites      2      2    n/a      0        0
+               tests      4      4      4      0        0
+             asserts     15     15     15      0      n/a
+
+Elapsed time =    0.000 seconds
